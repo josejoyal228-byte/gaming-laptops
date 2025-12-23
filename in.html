@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+<h1>WEL COME</h1>
+</center>
+<title>Top 10 Gaming Laptops</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+}
+header{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+.container{
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+/* CARD */
+.card{
+    position:relative;
+    height:380px;
+    overflow:hidden;
+    border-radius:12px;
+    background:#fff;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* FRONT */
+.front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    transition:transform 0.6s ease;
+    text-align:center;
+}
+.front img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.front h3{
+    margin:10px;
+}
+
+/* BACK */
+.back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:-100%;
+    background:#111;
+    color:#fff;
+    padding:20px;
+    transition:left 0.6s ease;
+}
+.back ul{
+    list-style:none;
+    padding:0;
+}
+.back ul li{
+    margin:6px 0;
+    font-size:14px;
+}
+
+/* HOVER */
+.card:hover .front{
+    transform:translateX(100%);
+}
+.card:hover .back{
+    left:0;
+}
+
+/* BUTTON */
+.buy-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#ff9f00;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:6px;
+}
+.buy-btn:hover{
+    background:#fb641b;
+    color:#fff;
+}
+
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Top 10 Gaming Laptops (2025)</h1>
+<p>Hover to see Price & Specs</p>
+</header>
+
+<div class="container">
+
+<!-- 1 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302">
+<h3>ASUS ROG Strix Scar 16</h3>
+</div>
+<div class="back">
+<h3>ASUS ROG Strix Scar 16</h3>
+<p>Price: ₹2,49,999</p>
+<ul>
+<li>Intel i9</li>
+<li>RTX 4080</li>
+<li>32GB RAM</li>
+<li>240Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=ASUS+ROG+Strix+Scar+16" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6">
+<h3>Lenovo Legion Pro 7i</h3>
+</div>
+<div class="back">
+<h3>Lenovo Legion Pro 7i</h3>
+<p>Price: ₹2,29,999</p>
+<ul>
+<li>Intel i9</li>
+<li>RTX 4070</li>
+<li>32GB RAM</li>
+<li>240Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=Lenovo+Legion+Pro+7i" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<div class="front">
+<img src="alienware.png">
+<h3>Alienware m16</h3>
+</div>
+<div class="back">
+<h3>Alienware m16</h3>
+<p>Price: ₹2,10,000</p>
+<ul>
+<li>Intel i7</li>
+<li>RTX 4070</li>
+<li>16GB RAM</li>
+<li>165Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=Alienware+m16+gaming+laptop" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<div class="front">
+<img src="msi raider.png">
+<h3>MSI Raider GE78 HX</h3>
+</div>
+<div class="back">
+<h3>MSI Raider GE78 HX</h3>
+<p>Price: ₹2,60,000</p>
+<ul>
+<li>Intel i9</li>
+<li>RTX 4080</li>
+<li>32GB RAM</li>
+<li>240Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=MSI+Raider+GE78+HX" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5">
+<h3>ASUS ROG Zephyrus G16</h3>
+</div>
+<div class="back">
+<h3>ROG Zephyrus G16</h3>
+<p>Price: ₹1,99,999</p>
+<ul>
+<li>Intel i7</li>
+<li>RTX 4060</li>
+<li>16GB RAM</li>
+<li>165Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=ASUS+ROG+Zephyrus+G16" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9">
+<h3>Acer Predator Helios Neo 16</h3>
+</div>
+<div class="back">
+<h3>Acer Predator Neo 16</h3>
+<p>Price: ₹1,50,000</p>
+<ul>
+<li>Intel i7</li>
+<li>RTX 4060</li>
+<li>16GB RAM</li>
+<li>165Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=Acer+Predator+Helios+Neo+16" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<div class="front">
+<img src="hp.ping.jpg">
+<h3>HP Omen 16</h3>
+</div>
+<div class="back">
+<h3>HP Omen 16</h3>
+<p>Price: ₹1,45,000</p>
+<ul>
+<li>Ryzen 7</li>
+<li>RTX 4060</li>
+<li>16GB RAM</li>
+<li>165Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=HP+Omen+16+gaming+laptop" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1629131726692-1accd0c53ce0">
+<h3>MSI Katana 15</h3>
+</div>
+<div class="back">
+<h3>MSI Katana 15</h3>
+<p>Price: ₹1,10,000</p>
+<ul>
+<li>Intel i7</li>
+<li>RTX 4050</li>
+<li>16GB RAM</li>
+<li>144Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=MSI+Katana+15" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<div class="front">
+<img src="asus.png">
+<h3>ASUS TUF Gaming A15</h3>
+</div>
+<div class="back">
+<h3>ASUS TUF A15</h3>
+<p>Price: ₹95,000</p>
+<ul>
+<li>Ryzen 7</li>
+<li>RTX 3050</li>
+<li>16GB RAM</li>
+<li>144Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=ASUS+TUF+Gaming+A15" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<div class="front">
+<img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed">
+<h3>Dell G15</h3>
+</div>
+<div class="back">
+<h3>Dell G15</h3>
+<p>Price: ₹85,000</p>
+<ul>
+<li>Intel i5</li>
+<li>RTX 3050</li>
+<li>16GB RAM</li>
+<li>120Hz Display</li>
+</ul>
+<a href="https://www.amazon.in/s?k=Dell+G15+gaming+laptop" target="_blank" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>© 2025 Gaming Laptop Website</p>
+</footer>
+
+</body>
+</html>
